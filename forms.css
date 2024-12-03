@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: form;
+    src: url(GODOFWAR.TTF);
+}
+h1{
+    font-family: form;
+    font-size: 100px;
+    margin-bottom: auto;
+
+}
+

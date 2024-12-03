@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>Formulario Ejercicio HND</title>
+</head>
+<h1 align="center">Formulario AulaVirtual</h1>
+<br>
+<fieldset>
+<body>
+    <form action="http://lenguajesmarcas.procesodatos.es/recogerformulario.php"></form>
+  <p>
+    <form>
+        <div style='float:left; width: 25%'>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+
+    <div style='float:left; width: 30%'>
+        <label for="name2">Apellido</label>
+        <input type="text" id="name2" name="name2 required">
+    
+    </div>
+    <div style='float:left; width: 25%'>
+        <label for="Correo">Correo</label>
+        <input type="email" id="name3" name="name3" required>
+    </div>
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" name="contraseña"required>
+</form>
+<br>
+<hr color="blue" size="6px">
+    <form>
+        <br>
+        <div style='float:left; width:19%'>
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" name="telefono">
+    </div>
+
+        <div style='float:left; width:25%'>
+        <label for="BornDate">Fecha De Nacimiento</label>
+        <input type="date" id="BornDate" name="BornDate">
+    </div>
+        <div style='float:left; width:25%'>
+        <label for="Web">Pagina Web</label>
+        <input type="url" id="Web" name="Web">
+    </div>
+        <label for="color">Color de Usuario</label>
+        <input type="color" value="#FF01222" title="" name="Color de Usuario">
+    </form>
+    <form>
+    <br>
+    <hr color="blue" size="6px">
+
+    <div style='float:left; width:15%'>
+        <label for="Edad">Edad</label>
+        <input type="range" min="1" max="100" value="2" step="1" title="" name="">
+    </div>
+    <div style='float:left; width:30%'>
+        <label for="Avatar">Avatar</label>
+        <form method="post" action="/send/" enctype="multipart/form-data">
+            <input type="file">
+    </div>
+
+        <select><label>Genero</label></select>
+        <input type="radio" id="Masculino" name="Genero" value="Masculino">
+        <label for="Masculino">Masculino</label>
+        <input type="radio" id="Femenino" name="Genero" value="Femenino">
+        <label for="Femenino">Femenino</label>
+        <input type="radio" id="Genero no binario" name="Genero" value="Genero no binario">
+        <label for="Femenino">Genero no binario</label>
+          </form>
+    <br>
+          <form>
+        <input type="checkbox" name="termino" required>
+        Acepto las politicas y normativas al rellenar este Formulario
+        <label></label> <br> <br>
+        <input type="submit" value="Enviar">
+
+          </form>
+         
+          
+    </form>
+</fieldset>
+    </p>
+ 
+        </p>
+      </form> 
+    
+</body>
+</html>
